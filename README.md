@@ -1,19 +1,24 @@
-🚀 Google Drive + Google Colab Python File Uploader
+Google Drive + Google Colab Python File Uploader
 
-This project allows users to upload Python scripts (.py) to Google Drive and open them directly in Google Colab.
+This allows users to upload Python scripts (.py) to Google Drive and open them directly in Google Colab.
 
-📌 Features
+Features
 
-✅ Uploads Python files (.py)✅ Converts them to Jupyter Notebooks (.ipynb)✅ Opens the uploaded file in Google Colab✅ Uses Google OAuth 2.0 for authentication
+- Uploads Python files (.py)
+- Converts them to Jupyter Notebooks (.ipynb)
+-  Opens the uploaded file in Google Colab
+-  Uses Google OAuth 2.0 for authentication
 
-🛠️ Setup Instructions
+ Setup Instructions
 
 1️⃣ Clone the Repository
 
 2️⃣ Install Dependencies
 
-This project uses Composer for dependency management. Run:
-
+Run: 
+```bash
+composer install
+```
 This will install the Google API Client Library and other dependencies.
 
 3️⃣ Set Up Google OAuth
@@ -38,11 +43,12 @@ Place it inside the project root.
 
 4️⃣ Run the PHP Development Server
 
-After setting up OAuth, start a local PHP server:
 
 Now, open your browser and visit:
-
-🎯 Usage
+```bash
+http://server-name/login.php
+```
+Usage
 
 Log in with Google (OAuth will ask for permission).
 
@@ -56,7 +62,7 @@ Uploaded to Google Drive.
 
 Opened in Google Colab for execution.
 
-❓ Troubleshooting
+Troubleshooting
 
 Issue: "credentials.json not found"
 
@@ -68,19 +74,6 @@ Issue: "Class Google\Client not found"
 
 Run composer install to ensure dependencies are installed.
 
-🛠️ Technologies Used
 
-PHP
-
-Google API Client (google/apiclient)
-
-Composer
-
-📜 License
-
-This project is licensed under the MIT License.
-
-🚀 Author
-
-👤 Your Name🔗 GitHub | Website
+Laurence Liu
 
